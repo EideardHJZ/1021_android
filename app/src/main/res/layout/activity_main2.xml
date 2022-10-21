@@ -26,8 +26,8 @@
         android:layout_height="40dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint = "請輸入飲料名稱"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -60,6 +60,7 @@
             android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="無糖" />
 
         <RadioButton
@@ -108,6 +109,7 @@
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="去冰" />
 
         <RadioButton
